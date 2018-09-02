@@ -1,0 +1,4 @@
+> run project
+```
+npm start
+```
