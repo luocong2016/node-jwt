@@ -1,13 +1,13 @@
 node_modules/
 mochawesome-report/
+public/img/
 
+dist/
 dist.zip
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-nodeServer.js
 
 .DS_Store
 .idea
