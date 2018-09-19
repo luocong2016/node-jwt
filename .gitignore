@@ -1,6 +1,7 @@
 node_modules/
 mochawesome-report/
-public/
+
+public/*
 
 dist/
 dist.zip
@@ -8,6 +9,9 @@ dist.zip
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+package-lock.json
+yarn.lock
 
 .DS_Store
 .idea
