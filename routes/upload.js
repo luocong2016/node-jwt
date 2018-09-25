@@ -47,7 +47,6 @@ router.post('/', function (req, res, next) {
     const newpath = `./public/${fileName}/${hashName + extname}`;
 
     try {
-      console.log(files.file.path, newpath)
       fs.rename(files.file.path, newpath, err => {
         if (err) {
           delUpload(res, files, { status: 0, type: 'ERROR_File', message: '上传文件中出现错误' });
